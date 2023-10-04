@@ -7,9 +7,6 @@ class Computer {
   PowerOn() {
     if (!this.isPoweredOn) {
       this.isPoweredOn = true;
-      // Please pay attention on operation adding implemented on string!
-      // Investigate the topic - Operations in JavaScript!
-  
       console.log(`${this.manufacturer} and ${this.model} is now powered on.`);
     } else {
       console.log(
